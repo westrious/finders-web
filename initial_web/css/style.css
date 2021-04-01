@@ -608,7 +608,7 @@ button {
 
 /** footer **/
 
-.footer::before {
+/* .footer::before {
      content: "";
      position: absolute;
      width: 457px;
@@ -618,7 +618,7 @@ button {
      top: -334px;
      z-index: 9999;
      right: 154px;
-}
+} */
 
 .footer::after {
      content: "";

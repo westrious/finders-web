@@ -9,9 +9,9 @@ $(function () {
 	/* Preloader
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
 	
-	setTimeout(function () {
-		$('.loader_bg').fadeToggle();
-	}, 1500);
+	// setTimeout(function () {
+	// 	$('.loader_bg').fadeToggle();
+	// }, 150);
 	
 	/* Tooltip
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
@@ -55,7 +55,7 @@ function getURL() { window.location.href; } var protocol = location.protocol; $.
      -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
      // optional
      $('#blogCarousel').carousel({
-        interval: 5000
+        interval: 3000
      });
 
 
